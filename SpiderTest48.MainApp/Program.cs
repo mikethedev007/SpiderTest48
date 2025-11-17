@@ -22,8 +22,8 @@ namespace SpiderTest48.MainApp
             try
             {
 
-                //string audioFilePath = AppDomain.CurrentDomain.BaseDirectory + "\\Resources\\LCh.wav";
-                //PlayAudio(audioFilePath);
+                string audioFilePath = AppDomain.CurrentDomain.BaseDirectory + "\\Resources\\LCh.wav";
+                PlayAudio(audioFilePath);
 
                 //Set Wall Maximum Sizes allowed
                 Position maxWallDimension = new Position(20, 20, GameEnum.Orientation.None);
